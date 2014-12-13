@@ -64,9 +64,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Device.cpp" />
     <ClCompile Include="Wiigee.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AccelerationEvent.h" />
+    <ClInclude Include="AccelerationListener.h" />
+    <ClInclude Include="ActionStartEvent.h" />
+    <ClInclude Include="ButtonListener.h" />
+    <ClInclude Include="ButtonPressedEvent.h" />
+    <ClInclude Include="ButtonReleasedEvent.h" />
+    <ClInclude Include="Device.h" />
+    <ClInclude Include="GestureListener.h" />
+    <ClInclude Include="ActionStopEvent.h" />
     <ClInclude Include="Wiigee.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

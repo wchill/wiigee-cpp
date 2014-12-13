@@ -18,9 +18,39 @@
     <ClCompile Include="Wiigee.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Wiigee.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerationListener.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonListener.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GestureListener.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AccelerationEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionStartEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ActionStopEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonPressedEvent.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonReleasedEvent.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
